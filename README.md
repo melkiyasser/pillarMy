@@ -20,7 +20,16 @@ In the future Pillar will be the name of the compilation chain and the syntax la
 ### 1. Building from sources
 For HTTPS setup, execute the `build.sh` script found in the `scripts` directory:
 
+### Here is the latest version for Pharo 12.
+```bash
+$ git clone https://github.com/pillar-markup/pillar.git
+$ cd pillar
+$ git checkout v10.0.0
+$ chmod a+x ./scripts/build.sh
+$ ./scripts/build.sh
+```
 
+### Here is the latest version for Pharo 11.
 ```bash
 $ git clone https://github.com/pillar-markup/pillar.git
 $ cd pillar
@@ -195,11 +204,12 @@ Please note that chapter on "Pharo a web Perspective" is obsolete since it refer
 ## History
 
 ### For Pharo 12 
+The development of Pillar and Microdown are now in Pharo 12.
 - v10.0.0 but with some links problems due to new inline parser
 
-### For Pharo 12 (Current stable release)
+### For Pharo 11 
 - v9.0.1 Fixing link problems.
-- v9.0.0 loading in Pharo 11. The development will now happen in P11.
+- v9.0.0 loading in Pharo 11.
 
 ### For Pharo 10
 - v8.3.2 fixed baseline and updated readme
